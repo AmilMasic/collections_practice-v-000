@@ -15,23 +15,17 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  # array
   array = array.insert(1, array.delete_at(2))
   end
-#   # end
-# end
-
 def reverse_array(array)
   array.reverse
 end
 
 def kesha_maker(array)
 array.map do |word|
-  # word.to_s
   word[2] ="$"
   word
 end
-# word
 end
 
 def find_a(array)
