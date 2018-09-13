@@ -53,8 +53,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map do |word|
-    word << "s"
-  end
-# end
+  array.each_with_index.collect do |word, index|
+      index = 0
+      while index != 2 && index < array.length
+        word << "s"
+        index +=1
+      end
+
 end
