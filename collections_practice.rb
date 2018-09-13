@@ -59,5 +59,5 @@ def add_s(array)
         word << "s"
         index +=1
       end
-
+    end
 end
