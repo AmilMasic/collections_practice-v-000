@@ -28,6 +28,6 @@ end
 def kesha_maker(array)
 array.map do |word|
   # word.to_s
-  word.join
+  word[2] = "$"
 end
 end
