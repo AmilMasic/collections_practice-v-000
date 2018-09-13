@@ -29,5 +29,6 @@ def kesha_maker(array)
 array.map do |word|
   # word.to_s
   word.insert 2, "$"
+  word.delete_at(3)
 end
 end
