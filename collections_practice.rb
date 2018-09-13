@@ -38,6 +38,7 @@ def find_a(array)
   array.map do |word|
     if word[0] == "a"
       a_array << word
+    end
 end
 a_array
 end
