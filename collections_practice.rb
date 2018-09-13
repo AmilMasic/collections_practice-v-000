@@ -33,6 +33,7 @@ array.map do |word|
 end
 # word
 end
+
 def find_a(array)
   a_array = []
   array.map do |word|
