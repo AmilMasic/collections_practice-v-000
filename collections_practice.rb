@@ -55,7 +55,6 @@ end
 def add_s(array)
   array.map do |word|
     word << "s"
-    word[2].pop
   end
 # end
 end
