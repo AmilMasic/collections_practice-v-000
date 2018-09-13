@@ -55,5 +55,6 @@ end
 def add_s(array)
   array.map do |word|
     word << "s"
+  end
 # end
 end
