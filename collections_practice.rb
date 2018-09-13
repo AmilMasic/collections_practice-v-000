@@ -29,6 +29,7 @@ def kesha_maker(array)
 array.map do |word|
   # word.to_s
   word[2] =$
+  word
 end
-word
+# word
 end
