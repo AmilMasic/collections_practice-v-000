@@ -44,9 +44,9 @@ end
 a_array
 end
 
-def sum_array
+def sum_array(array)
   sum = 0
-  sum_array.each do |y|
+  array.each do |y|
     sum = sum + y
   end
   sum
