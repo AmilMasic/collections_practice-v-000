@@ -27,6 +27,6 @@ end
 
 def kesha_maker(array)
 array.map do |word|
-  word[3] = "$"
+  word[2] = "$"
 end
 end
