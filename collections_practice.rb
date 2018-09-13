@@ -14,11 +14,9 @@ def sort_array_char_count(array)
   end
 end
 
-# def swap_elements(array)
-#   array.sort do |x,y|
-# 
-#     x <=> y
-#   end
+def swap_elements(array)
+  array.rotate! -1
+  end
 #   # end
 # end
 
